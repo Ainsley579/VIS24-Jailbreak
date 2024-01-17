@@ -1,15 +1,18 @@
 <template>
   <div>
     <HelloWorld />
+    <pathView />
   </div>
 </template>
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import pathView from './components/pathView.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    pathView
   }
 }
 </script>

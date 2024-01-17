@@ -18,4 +18,8 @@ export default {
     // 向 '/data' 路由发送 GET 请求
     return apiClient.get('/data');
     },
+    hello() {
+    // 向 '/data' 路由发送 GET 请求
+    return apiClient.get('/hello');
+    },
 };

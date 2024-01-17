@@ -19,7 +19,7 @@ export default {
     //定义一个异步函数来获取数据
     const fetchData = async () => {
       try {
-        const response = await DataService.getData();
+        const response = await DataService.hello();
         // 将获取的数据设置为组件的 data 属性
         message.value = response.data.message;
         // items.value = response.data.items;
