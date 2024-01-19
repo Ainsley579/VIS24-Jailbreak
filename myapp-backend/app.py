@@ -32,6 +32,12 @@ def getData():
         data = json.load(file) 
     return jsonify(data)
 
+@app.route('/api/nodes')
+def getNodes():
+    with open('./assets/nodes.json', 'r') as file:
+        data = json.load(file) 
+    return jsonify(data)
+
 
 # 如果作为主程序运行，启动应用
 if __name__ == '__main__':

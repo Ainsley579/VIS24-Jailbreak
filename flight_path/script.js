@@ -105,22 +105,22 @@ function processData(values) {
   old = airports.length;
   airports = airports.slice(0, 50);
   console.log(" removed: " + (old - airports.length) + " airports with low outgoing degree");
-
+  console.log({flights: flights});
   // done filtering airports can draw
   // drawAirports(airports);
   // drawPolygons(airports);
 
   // reset map to only include airports post-filter
-  iata = new Map(airports.map(node => [node.iata, node]));
+  // iata = new Map(airports.map(node => [node.iata, node]));
 
-  // filter out flights that are not between airports we have leftover
-  old = flights.length;
-  flights = flights.filter(link => iata.has(link.source.iata) && iata.has(link.target.iata));
-  console.log(" removed: " + (old - flights.length) + " flights");
+  // // filter out flights that are not between airports we have leftover
+  // old = flights.length;
+  // flights = flights.filter(link => iata.has(link.source.iata) && iata.has(link.target.iata));
+  // console.log(" removed: " + (old - flights.length) + " flights");
 
-  console.log({airports: airports});
-  console.log({flights: flights});
-  // done filtering flights can draw
+  // console.log({airports: airports});
+  // console.log({flights: flights});
+  // // done filtering flights can draw
   // drawFlights(airports, flights);
 
   // console.log({airports: airports});
