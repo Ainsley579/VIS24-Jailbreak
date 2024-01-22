@@ -1,0 +1,8 @@
+{
+    "prompts": [
+        138,
+        524
+    ],
+    "threshold": 0.8,
+    "max_count": 14
+}

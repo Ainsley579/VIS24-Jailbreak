@@ -1,0 +1,59 @@
+{
+    "query_matches": [
+        {
+            "prompt_idx": 5,
+            "prompt_sentence_idx": 2,
+            "cos_score": 0.8306488990783691
+        },
+        {
+            "prompt_idx": 329,
+            "prompt_sentence_idx": 41,
+            "cos_score": 0.8104709386825562
+        },
+        {
+            "prompt_idx": 617,
+            "prompt_sentence_idx": 15,
+            "cos_score": 0.844624400138855
+        },
+        {
+            "prompt_idx": 8,
+            "prompt_sentence_idx": 20,
+            "cos_score": 0.9541876316070557
+        },
+        {
+            "prompt_idx": 136,
+            "prompt_sentence_idx": 2,
+            "cos_score": 0.8418321013450623
+        },
+        {
+            "prompt_idx": 183,
+            "prompt_sentence_idx": 37,
+            "cos_score": 0.9456837177276611
+        },
+        {
+            "prompt_idx": 131,
+            "prompt_sentence_idx": 9,
+            "cos_score": 0.8900244832038879
+        },
+        {
+            "prompt_idx": 189,
+            "prompt_sentence_idx": 5,
+            "cos_score": 0.8428976535797119
+        },
+        {
+            "prompt_idx": 349,
+            "prompt_sentence_idx": 4,
+            "cos_score": 0.8920491933822632
+        },
+        {
+            "prompt_idx": 261,
+            "prompt_sentence_idx": 9,
+            "cos_score": 0.8436475992202759
+        },
+        {
+            "prompt_idx": 143,
+            "prompt_sentence_idx": 6,
+            "cos_score": 0.8371912240982056
+        }
+    ]
+}
